@@ -23,18 +23,20 @@ O projeto tem como objetivo implementar e testar um sistema de telemetria ponto 
 
 ## Estrutura do Repositório
 
+```
 .
-├── README.md # Este arquivo
-├── scripts/ # Scripts e programas principais
-│ ├── lora_transmissor_one_way_48_128 # Código ESP32 para transmitir dados
-│ ├── lora_transmissor_one_way_48_128.ino # Código ESP32 para transmitir dados
-│ └── leitura_serial.py # Script Python para ler porta serial do computador
-├── essential/ # Fotos, esquemas e documentação adicional
-│ ├── adaptador_EBYTE # Driver, manual e imagens do adaptador UART
-│ └── programa_configurar_lora # Programa para configuracao do modulo E220
-├── analise/ # Programa base de analise de dados coletados
-├── resultados/ # Dados coletados durante testes
-└── relatorio/ # Relatório parcial ou final do projeto
+├── README.md                 # Este arquivo
+├── scripts/                  # Scripts e programas principais
+│   ├── lora_transmissor_one_way_48_128/
+│   ├── lora_transmissor_one_way_48_128.ino
+│   └── leitura_serial.py
+├── essential/                # Fotos, esquemas e documentação adicional
+│   ├── adaptador_EBYTE/
+│   └── programa_configurar_lora/
+├── analise/                  # Programa base de análise de dados coletados
+├── resultados/               # Dados coletados durante testes
+└── relatorio/                # Relatório parcial ou final do projeto
+```
 
 ---
 
